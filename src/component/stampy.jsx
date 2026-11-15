@@ -1,4 +1,4 @@
-import "./stampy.css";
+import "../styles/Stampy.css";
 import { useState } from "react";
 
 function Stampy() {
