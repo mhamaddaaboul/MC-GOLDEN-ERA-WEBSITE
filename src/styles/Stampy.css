@@ -1,15 +1,145 @@
-.stampy-page { min-height: calc(100vh - 70px); display: flex; flex-direction: column; align-items: center; color: white; text-align: center; padding-top: 50px; background: linear-gradient(180deg, #fff3d6 0%, #ffd27a 20%, #ffad42 40%, #e87522 60%, #a94316 80%, #4a1d13 100%); background-size: 100% 250%; animation: stampyGradient 14s ease infinite; }
-@keyframes stampyGradient { 0%, 100% { background-position: top; } 50% { background-position: center; } }
-.stampy-title { font-size: 52px; font-weight: 800; letter-spacing: 6px; margin-bottom: 40px; color: white; text-shadow: 0 0 10px rgba(255,255,255,.9), 0 0 25px rgba(255,190,80,.9), 0 0 45px rgba(255,120,30,.8), 0 0 70px rgba(180,60,10,.6); }
-.stampy-description-box { width: 80%; max-width: 1000px; padding: 30px 45px; background: linear-gradient(135deg, rgba(255,255,255,.28), rgba(255,180,60,.12)); backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px); border: 1px solid rgba(255,255,255,.4); border-radius: 20px; box-shadow: 0 15px 40px rgba(80,30,0,.35), inset 0 1px 2px rgba(255,255,255,.4); transition: .4s ease; }
-.stampy-description-box:hover { transform: translateY(-5px); box-shadow: 0 20px 50px rgba(80,30,0,.45), 0 0 35px rgba(255,200,100,.3); }
-.stampy-description { margin: 0; color: white; font-size: 19px; line-height: 1.8; letter-spacing: 1px; text-shadow: 0 2px 8px rgba(70,20,0,.35); }
-.stampy-cards-section { display: flex; justify-content: center; gap: 30px; margin-top: 60px; }
-.stampy-card { width: 300px; height: 200px; position: relative; overflow: hidden; border-radius: 15px; cursor: pointer; box-shadow: 0 10px 30px rgba(70,25,0,.4); border: 2px solid rgba(255,255,255,.25); transition: .35s ease; }
-.stampy-card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s ease; }
-.stampy-card-info { position: absolute; bottom: 0; left: 0; width: 100%; padding: 20px; box-sizing: border-box; background: rgba(70,25,5,.85); color: white; transform: translateY(100%); transition: transform .35s ease; }
-.stampy-card:hover .stampy-card-info { transform: translateY(0); } .stampy-card:hover img { transform: scale(1.08); }
-.stampy-card:hover { transform: translateY(-8px); box-shadow: 0 18px 40px rgba(70,25,0,.5), 0 0 25px rgba(255,180,60,.35); border-color: rgba(255,220,150,.7); }
-.stampy-card-info h2 { font-size: 23px; margin: 0 0 8px; } .stampy-card-info p { font-size: 15px; line-height: 1.5; margin: 0; }
-.stampy-youtube-container { width: 80%; max-width: 1200px; aspect-ratio: 16 / 9; margin: 60px auto 80px; }
-.stampy-youtube-container iframe { width: 100%; height: 100%; border: none; border-radius: 20px; box-shadow: 0 20px 60px rgba(50,20,0,.5); }
+.stampy-page {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  background: linear-gradient(180deg, #fff3d6 0%, #ffd27a 20%, #ffad42 40%, #e87522 60%, #a94316 80%, #4a1d13 100%);
+  background-size: 100% 250%;
+  animation: stampyGradient 14s ease infinite;
+}
+
+@keyframes stampyGradient {
+  0%,
+  100% {
+    background-position: top;
+  }
+
+ 50% {
+    background-position: center;
+  }
+}
+
+.stampy-title {
+  font-size: 52px;
+  font-weight: 800;
+  letter-spacing: 6px;
+  margin-bottom: 40px;
+  color: white;
+  text-shadow: 0 0 10px rgba(255,255,255,.9),
+  0 0 25px rgba(255,190,80,.9),
+  0 0 45px rgba(255,120,30,.8),
+  0 0 70px rgba(180,60,10,.6);
+}
+
+.stampy-description-box {
+  width: 80%;
+  max-width: 1000px;
+  padding: 30px 45px;
+  background: linear-gradient(135deg, rgba(255,255,255,.28), rgba(255,180,60,.12));
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255,255,255,.4);
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(80,30,0,.35),
+  inset 0 1px 2px rgba(255,255,255,.4);
+  transition: .4s ease;
+}
+
+.stampy-description-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(80,30,0,.45),
+  0 0 35px rgba(255,200,100,.3);
+}
+
+.stampy-description {
+  margin: 0;
+  color: white;
+  font-size: 19px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(70,20,0,.35);
+}
+
+.stampy-cards-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.stampy-card {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(70,25,0,.4);
+  border: 2px solid rgba(255,255,255,.25);
+  transition: .35s ease;
+}
+
+.stampy-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .4s ease;
+}
+
+.stampy-card-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(70,25,5,.85);
+  color: white;
+  transform: translateY(100%);
+  transition: transform .35s ease;
+}
+
+.stampy-card:hover .stampy-card-info {
+  transform: translateY(0);
+}
+
+ .stampy-card:hover img {
+  transform: scale(1.08);
+}
+
+.stampy-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(70,25,0,.5),
+  0 0 25px rgba(255,180,60,.35);
+  border-color: rgba(255,220,150,.7);
+}
+
+.stampy-card-info h2 {
+  font-size: 23px;
+  margin: 0 0 8px;
+}
+
+ .stampy-card-info p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.stampy-youtube-container {
+  width: 80%;
+  max-width: 1200px;
+  aspect-ratio: 16 / 9;
+  margin: 60px auto 80px;
+}
+
+.stampy-youtube-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(50,20,0,.5);
+}
