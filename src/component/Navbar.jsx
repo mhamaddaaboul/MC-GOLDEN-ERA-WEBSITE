@@ -31,9 +31,9 @@ function Navbar() {
         <li><Link to="/contact">Contact</Link></li>
         {videosLink && (
           <li>
-            <a href={videosLink} target="_blank" rel="noopener noreferrer">
+            <Link to={videosLink} target="_blank" rel="noopener noreferrer">
               Videos
-            </a>
+            </Link>
           </li>
         )}
       </ul>
