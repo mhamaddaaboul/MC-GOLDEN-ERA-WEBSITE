@@ -1,4 +1,4 @@
-import "./App.css";
+import "./styles/App.css";
 import Stampy from "./component/stampy";
 import Navbar from "./component/Navbar";
 import Ssundee from "./component/Ssundee";
