@@ -1,0 +1,36 @@
+.about-page {
+  min-height: calc(100vh - 80px);
+  padding: 70px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  background: linear-gradient(180deg, #d9f3ff, #4aa3ff, #06182f);
+}
+
+.about-content {
+  width: min(900px, 100%);
+  padding: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  background: rgba(8, 20, 40, 0.35);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.about-content h1 {
+  margin-top: 5px;
+  font-size: clamp(32px, 5vw, 48px);
+}
+
+.about-eyebrow {
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: #c5eaff;
+}
+
+@media (max-width: 600px) {
+  .about-content { padding: 25px; font-size: 16px; }
+}
