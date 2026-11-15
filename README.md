@@ -29,7 +29,7 @@ A React-based fan website celebrating the Minecraft creators and series that mad
 
 **Aphmau**
 
-![Aphmau creator page](docs/screenshots/AFMO.png)
+![Aphmau creator page](docs/screenshots/APHMAU.png)
 
 ### Contact
 ![Contact page](docs/screenshots/contact.jpg)
