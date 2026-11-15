@@ -18,8 +18,7 @@ function About() {
           series special.
         </p>
         <p>
-          This project was created by Mhammad Daaboul and Rawan Daou as
-          part of a web development project.
+          This project was created by Mhammad Daaboul as part of a web development project.
         </p>
       </section>
     </main>
