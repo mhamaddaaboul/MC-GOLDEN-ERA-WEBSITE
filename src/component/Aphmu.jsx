@@ -1,4 +1,4 @@
-import "./Aphmu.css";
+import "../styles/Aphmu.css";
 import { useState } from "react";
 
 function Aphmu() {
