@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function Stampy() {
 
-  const [selectedVideo, setSelectedVideo] = useState("VIDEO_ID_1");
+  const [selectedVideo, setSelectedVideo] = useState("lWUkHA3yA90");
 
   return (
 
