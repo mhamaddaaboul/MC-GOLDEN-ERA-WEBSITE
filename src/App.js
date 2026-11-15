@@ -21,7 +21,7 @@ function Home() {
           Explore some of the creators and series
           that made Minecraft special.
           <br />
-          Made by Mhammad Daaboul and Rawan Daou
+          Made by Mhammad Daaboul
         </p>
       </div>
 
