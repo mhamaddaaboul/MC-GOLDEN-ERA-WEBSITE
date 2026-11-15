@@ -1,4 +1,4 @@
-import "./Sam.css";
+import "../styles/Sam.css";
 import { useState } from "react";
 
 function Sam() {
