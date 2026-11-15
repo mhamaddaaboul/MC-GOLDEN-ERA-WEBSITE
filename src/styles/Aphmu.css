@@ -5,7 +5,14 @@
   align-items: center;
   color: white;
   text-align: center;
-  background: linear-gradient(180deg, #ffd6ec 0%, #f3b6dc 20%, #c98bdc 45%, #8b55b5 70%, #3b1d55 100%);
+  background: linear-gradient(
+    180deg,
+    #ffd6ec 0%,
+    #f3b6dc 20%,
+    #c98bdc 45%,
+    #8b55b5 70%,
+    #3b1d55 100%
+  );
   background-size: 100% 250%;
   animation: aphmuSkyShift 12s ease infinite;
   padding-top: 1px;
@@ -14,9 +21,10 @@
 .aphmu-title {
   margin-top: 30px;
   font-size: 40px;
-  text-shadow: 0 0 15px #fff,
-  0 0 30px #a1158a,
-  0 0 55px #7b0f69;
+  text-shadow:
+    0 0 15px #fff,
+    0 0 30px #a1158a,
+    0 0 55px #7b0f69;
 }
 
 .aphmu-description {
@@ -28,17 +36,18 @@
 }
 
 .aphmu-description-box {
-  background: rgba(255,255,255,.25);
+  background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-  border: 2px solid rgba(255,255,255,.4);
+  border: 2px solid rgba(255, 255, 255, 0.4);
   border-radius: 18px;
   padding: 30px;
   width: 80%;
   max-width: 1100px;
   box-sizing: border-box;
-  box-shadow: 0 10px 30px rgba(70,20,90,.3),
-  0 0 25px rgba(255,180,230,.25);
+  box-shadow:
+    0 10px 30px rgba(70, 20, 90, 0.3),
+    0 0 25px rgba(255, 180, 230, 0.25);
 }
 
 .aphmu-cards-section {
@@ -56,9 +65,10 @@
   overflow: hidden;
   border-radius: 15px;
   cursor: pointer;
-  box-shadow: 0 10px 20px rgba(0,0,0,.3);
-  transition: transform .3s ease,
-  box-shadow .3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .aphmu-card img {
@@ -66,7 +76,7 @@
   height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
 }
 
 .aphmu-card-info {
@@ -76,7 +86,7 @@
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  background: rgba(0,0,0,.75);
+  background: rgba(0, 0, 0, 0.75);
   color: white;
   display: flex;
   flex-direction: column;
@@ -84,21 +94,22 @@
   align-items: center;
   text-align: center;
   padding: 20px;
-  transition: bottom .4s ease;
+  transition: bottom 0.4s ease;
 }
 
 .aphmu-card:hover .aphmu-card-info {
   bottom: 0;
 }
 
- .aphmu-card:hover img {
+.aphmu-card:hover img {
   transform: scale(1.05);
 }
 
 .aphmu-card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 25px rgba(161,21,138,.7),
-  0 15px 35px rgba(0,0,0,.4);
+  box-shadow:
+    0 0 25px rgba(161, 21, 138, 0.7),
+    0 15px 35px rgba(0, 0, 0, 0.4);
 }
 
 .aphmu-card-info h2 {
@@ -106,7 +117,7 @@
   margin-bottom: 10px;
 }
 
- .aphmu-card-info p {
+.aphmu-card-info p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -124,7 +135,7 @@
   height: 100%;
   border: none;
   border-radius: 20px;
-  box-shadow: 0 20px 60px rgba(0,0,0,.45);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
 }
 
 @keyframes aphmuSkyShift {
@@ -133,7 +144,7 @@
     background-position: top;
   }
 
- 50% {
+  50% {
     background-position: center;
   }
 }
