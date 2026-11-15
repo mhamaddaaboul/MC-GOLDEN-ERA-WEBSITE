@@ -44,7 +44,7 @@ function Sam() {
           onClick={() => setSelectedVideo("sAvCUxCL8Xg")}
         >
           <img
-            src="/images/TS.jpg"
+            src="/TS.jpg"
             alt="Sam Video 2"
           />
 
