@@ -1,4 +1,4 @@
-import "./Ssundee.css";
+import "../styles/Ssundee.css";
 import { useState } from "react";
 
 function Ssundee() {
