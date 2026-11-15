@@ -2,7 +2,7 @@ import "./Sam.css";
 import { useState } from "react";
 
 function Sam() {
-  const [selectedVideo, setSelectedVideo] = useState("VIDEO_ID_1");
+  const [selectedVideo, setSelectedVideo] = useState("pzBt4KZrWCY");
 
   return (
     <main className="sam-hero">
@@ -44,7 +44,7 @@ function Sam() {
           onClick={() => setSelectedVideo("sAvCUxCL8Xg")}
         >
           <img
-            src="TS.jpg"
+            src="/images/TS.jpg"
             alt="Sam Video 2"
           />
 
