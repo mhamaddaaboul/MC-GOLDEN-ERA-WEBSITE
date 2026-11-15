@@ -8,7 +8,7 @@ A React-based fan website celebrating the Minecraft creators and series that mad
 ![MC Golden Era home page](docs/screenshots/home.jpg)
 
 ### About
-![About page](docs/screenshots/about.png)
+![About page](docs/screenshots/About.png)
 
 ### Features
 ![Features page](docs/screenshots/features.jpg)
