@@ -1,13 +1,114 @@
-.sam-hero { min-height: 100vh; color: white; text-align: center; letter-spacing: 3px; padding-top: 1px; background: linear-gradient(180deg, #fff4c2 0%, #f6d76b 18%, #d4a928 40%, #765b1c 70%, #1d1a14 100%); background-size: 100% 250%; animation: samSkyShift 12s ease infinite; }
-@keyframes samSkyShift { 0%, 100% { background-position: top; } 50% { background-position: center; } }
-.sam-hero h1 { color: white; text-shadow: 0 0 10px #fff, 0 0 25px #ffe27a, 0 0 45px #d4a928; }
-.sam-description { text-align: center; max-width: 1000px; margin: 0 auto; line-height: 1.8; font-size: 1.2rem; }
-.sam-description-box { background: rgba(30,25,15,.25); backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,.3); border-radius: 18px; box-shadow: 0 10px 30px rgba(0,0,0,.35); padding: 30px; }
-.sam-photos { display: flex; justify-content: center; gap: 30px; margin-top: 60px; }
-.sam-photo-card { position: relative; width: 300px; height: 200px; cursor: pointer; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 25px rgba(0,0,0,.35); transition: .3s; }
-.sam-photo-card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s ease; }
-.sam-photo-info { position: absolute; bottom: 0; left: 0; width: 100%; padding: 20px; box-sizing: border-box; background: rgba(0,0,0,.8); color: white; transform: translateY(100%); transition: transform .3s ease; }
-.sam-photo-card:hover .sam-photo-info { transform: translateY(0); } .sam-photo-card:hover img { transform: scale(1.05); }
-.sam-photo-card:hover { transform: translateY(-8px); box-shadow: 0 0 20px rgba(255,230,120,.8), 0 0 40px rgba(212,169,40,.45), 0 15px 35px rgba(0,0,0,.4); }
-.sam-youtube-container { width: 80%; max-width: 1200px; aspect-ratio: 16 / 9; margin: 60px auto; }
-.sam-youtube-container iframe { width: 100%; height: 100%; border: none; border-radius: 20px; box-shadow: 0 20px 60px rgba(0,0,0,.45); }
+.sam-hero {
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  padding-top: 1px;
+  background: linear-gradient(180deg, #fff4c2 0%, #f6d76b 18%, #d4a928 40%, #765b1c 70%, #1d1a14 100%);
+  background-size: 100% 250%;
+  animation: samSkyShift 12s ease infinite;
+}
+
+@keyframes samSkyShift {
+  0%,
+  100% {
+    background-position: top;
+  }
+
+ 50% {
+    background-position: center;
+  }
+}
+
+.sam-hero h1 {
+  color: white;
+  text-shadow: 0 0 10px #fff,
+  0 0 25px #ffe27a,
+  0 0 45px #d4a928;
+}
+
+.sam-description {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+
+.sam-description-box {
+  background: rgba(30,25,15,.25);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  padding: 30px;
+}
+
+.sam-photos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.sam-photo-card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,.35);
+  transition: .3s;
+}
+
+.sam-photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .3s ease;
+}
+
+.sam-photo-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,.8);
+  color: white;
+  transform: translateY(100%);
+  transition: transform .3s ease;
+}
+
+.sam-photo-card:hover .sam-photo-info {
+  transform: translateY(0);
+}
+
+ .sam-photo-card:hover img {
+  transform: scale(1.05);
+}
+
+.sam-photo-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 20px rgba(255,230,120,.8),
+  0 0 40px rgba(212,169,40,.45),
+  0 15px 35px rgba(0,0,0,.4);
+}
+
+.sam-youtube-container {
+  width: 80%;
+  max-width: 1200px;
+  aspect-ratio: 16 / 9;
+  margin: 60px auto;
+}
+
+.sam-youtube-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0,0,0,.45);
+}
