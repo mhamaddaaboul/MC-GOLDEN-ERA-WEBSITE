@@ -1,15 +1,43 @@
 # MC Golden Era
 
-MC Golden Era is a React website celebrating Minecraft creators and memorable series from Minecraft's Golden Era.
+A React-based fan website celebrating the Minecraft creators and series that made Minecraft's Golden Era memorable.
 
-## Pages
-- **Home:** introduces the website and links to featured creators.
-- **About:** explains the purpose of the project.
-- **Features:** describes the main website features.
-- **Creator pages:** dedicated pages for Ssundee, Sam Gladiator, Aphmau, and Stampy, with series cards and embedded YouTube videos.
-- **Contact:** a form interface for visitors to write a message.
+## Website preview
+
+### Home
+![MC Golden Era home page](docs/screenshots/home.jpg)
+
+### Features
+![Features page](docs/screenshots/features.jpg)
+
+### Creator pages
+
+**Ssundee**
+
+![Ssundee creator page](docs/screenshots/ssundee.jpg)
+
+**Sam Gladiator**
+
+![Sam Gladiator creator page](docs/screenshots/sam.jpg)
+
+**Stampy**
+
+![Stampy creator page](docs/screenshots/stampy.jpg)
+
+### Contact
+![Contact page](docs/screenshots/contact.jpg)
+
+## Pages and features
+
+- **Home:** introduces MC Golden Era and highlights featured creators.
+- **About:** explains the purpose and background of the fan-made project.
+- **Features:** presents the main features available on the website.
+- **Creator pages:** dedicated pages for Ssundee, Sam Gladiator, Aphmau, and Stampy, including creator information, series images, and embedded YouTube videos.
+- **Interactive video player:** selecting a series card changes the embedded video on the creator page.
+- **Contact:** a form interface where visitors can enter their name, email, subject, and message.
 
 ## Technologies
+
 - React
 - React Router
 - JavaScript
@@ -17,17 +45,36 @@ MC Golden Era is a React website celebrating Minecraft creators and memorable se
 - YouTube embedded videos
 
 ## Run the project locally
+
 1. Install [Node.js](https://nodejs.org/).
 2. Clone this repository.
 3. Open the project folder in a terminal.
-4. Run `npm install`.
-5. Run `npm start`.
-6. Open http://localhost:3000 in your browser.
+4. Install the dependencies:
 
-## Build
-Run `npm run build` to create an optimized production build.
+   ```bash
+   npm install
+   ```
 
-## Notes
-The Contact form currently displays an on-screen confirmation in the browser. It does not send or store messages because a backend or form service has not been connected.
+5. Start the development server:
 
-This is a fan-made educational project and is not affiliated with the featured creators or Mojang.
+   ```bash
+   npm start
+   ```
+
+6. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Create a production build
+
+Run:
+
+```bash
+npm run build
+```
+
+This creates an optimized production build in the `build` folder.
+
+## Important notes
+
+- The Contact form currently displays an on-screen confirmation in the browser. It does not send or store messages because a backend or form service has not been connected.
+- The Videos navigation item opens the creator's external YouTube channel.
+- This is a fan-made educational project and is not affiliated with the featured creators or Mojang.
