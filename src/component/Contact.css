@@ -1,0 +1,49 @@
+
+.contact-page {
+  min-height: 100vh;
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+}
+
+.contact-page form {
+  width: 90%;
+  max-width: 550px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-page input,
+.contact-page textarea {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.contact-page textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-page button {
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #172b70;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-page button:hover {
+  background: #2949a8;
+}
+
+.success-message {
+  color: #a8ffbd;
+  font-weight: bold;
+}
+  
