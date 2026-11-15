@@ -7,6 +7,9 @@ A React-based fan website celebrating the Minecraft creators and series that mad
 ### Home
 ![MC Golden Era home page](docs/screenshots/home.jpg)
 
+### About
+![About page](docs/screenshots/about.png)
+
 ### Features
 ![Features page](docs/screenshots/features.jpg)
 
@@ -23,6 +26,10 @@ A React-based fan website celebrating the Minecraft creators and series that mad
 **Stampy**
 
 ![Stampy creator page](docs/screenshots/stampy.jpg)
+
+**Aphmau**
+
+![Aphmau creator page](docs/screenshots/AFMO.png)
 
 ### Contact
 ![Contact page](docs/screenshots/contact.jpg)
